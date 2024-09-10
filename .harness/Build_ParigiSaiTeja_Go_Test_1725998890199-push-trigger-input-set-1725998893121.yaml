@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ParigiSaiTeja_Go_Test_1725998890199-push-trigger-input-set
+  identifier: Build_ParigiSaiTeja_Go_Test_1725998890199pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ParigiSaiTeja_Go_Test_1725998890199
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
